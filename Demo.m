@@ -12,7 +12,7 @@ rng(5,'v5uniform')
 % methods
 % parameter seting
 %%
-Phi_update_times = 10; 
+Phi_update_times = 10;
 L = 256;
 M = 20;
 K = 4;
