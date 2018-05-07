@@ -21,6 +21,6 @@ Iter_update_D = 1e3;
 
 param = struct('X',X,'X_test',X_test,'epsilon',1e-6,'L',L,'M',M,'K',K,'mode_A',true,...
     'gamma',1/32,'Iter_dic',1,'Iter_update_D',Iter_update_D,'Phi_update_times',Phi_update_times,...
-    'Percent',0.005,'Iter_unused',1000,'Batchsize',Batchsize,'Initial',false,'Convergence_Check',true);
+    'Percent',0.005,'Iter_unused',1000,'Batchsize',Batchsize,'Initial',false,'Convergence_Check',false);
 
 [Phi_array_alg3,Psi_array_alg3,CPUtime_alg3,test_error_array,PSNR_array,dif_dic_array] = Online_Sens_DIC_simultaneously(param);
