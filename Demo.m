@@ -11,7 +11,7 @@ rng(5,'v5uniform')
 % train the sensing matrix and sparsifying for the following three
 % methods
 % parameter seting
-%%
+
 Phi_update_times = 10;
 L = 256;
 M = 20;
