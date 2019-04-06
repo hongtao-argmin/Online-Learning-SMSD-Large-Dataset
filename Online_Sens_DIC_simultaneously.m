@@ -41,7 +41,7 @@
 %                    projected SRE.
 %
 %       param.Iter_dic: In practice, 1 is enough.
-%                       It means we updating the columns of D only 1 round.
+%                       It means we update the columns of D only 1 round.
 %                       The default is 1.
 %
 %       param.Iter_update_D: the number of updating dictionary.
